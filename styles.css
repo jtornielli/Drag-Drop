@@ -1,0 +1,86 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+    background-color: #eeeeee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222831;
+}
+
+.app{
+    display: flex;
+    width: 100vw;
+    height: 100vw;
+    flex-flow: column;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.listaGeneral{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.listaGeneral .listaIndividual{
+    display: flex;
+    flex-flow: column;
+    border: black 1px solid;
+    flex: 1;
+    width: 100%;
+    min-width: 250px;
+    max-width: 350px;
+    height: 25%;
+    min-height: 150px;
+    background-color: white;
+    margin: 0 15px;
+    padding: 8px;
+    transition: all 0.2s linear;
+    opacity: 1;
+    border-radius: 0.4em;
+
+
+}
+
+.listaIndividual:hover{
+    opacity: 0.8;
+}
+
+
+
+.listaGeneral .listaIndividual .itemDeListaIndividual{
+
+background-color: #4CAF50;
+border-radius: 8px;
+padding: 15px 20px;
+text-align: center;
+margin: 4px 0px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
